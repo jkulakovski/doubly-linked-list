@@ -9,6 +9,7 @@ class LinkedList {
 
     append(data) {
 		let node = new Node(data);
+		
 		if(this.length){
 			this._tail.next = node;
 			node.prev = this._tail;
